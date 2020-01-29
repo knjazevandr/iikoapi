@@ -11,10 +11,10 @@ class Api
     private $login;
     private $password;
     private $accessToken;
-    private $baseUri = 'https://iiko.biz:9900/api/0/';
-    private $client;
-    private $organization;
-    private $organizations = [];
+    protected $baseUri = 'https://iiko.biz:9900/api/0/';
+    protected $client;
+    protected $organization;
+    protected $organizations = [];
 
     /**
      * IikoApi constructor.
